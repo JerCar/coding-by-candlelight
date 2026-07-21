@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Node (for future expansion)
+node_modules/
+
+# Build folders
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS-generated files
+ehthumbs.db
