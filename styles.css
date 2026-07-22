@@ -103,10 +103,34 @@ h2 { margin-bottom: 22px; font-size: clamp(2.25rem, 4vw, 4rem); font-weight: 400
 .principle h3 { font-family: "Libre Baskerville", serif; font-size: 1.5rem; }
 .principle p { color: var(--muted); }
 
-.about { background: #f9f4eb; }
-.about-grid { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: 90px; }
-.about-panel { min-height: 500px; display: grid; place-items: center; border-radius: 50% 50% 8% 8% / 45% 45% 8% 8%; background: radial-gradient(circle at 50% 32%, #d9a85e, #5b3d22 46%, #211811 75%); box-shadow: var(--shadow); }
-.monogram { width: 140px; height: 140px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.5); border-radius: 50%; color: #fff4e4; font: 400 2.8rem/1 "Libre Baskerville", serif; letter-spacing: .08em; }
+  .about { background: #f9f4eb; }
+  .about {
+    background: #f9f4eb;
+  }
+
+  .about-copy {
+    max-width: 780px;
+  }
+
+  .about-copy h2 {
+    margin-bottom: 2rem;
+  }
+
+  .about-copy p {
+    max-width: 700px;
+    color: var(--muted);
+    font-size: 1.08rem;
+  }
+
+  .about-copy p + p {
+    margin-top: 1.5rem;
+  }
+
+  .about-closing {
+    margin-top: 2.5rem;
+    font-style: italic;
+    font-weight: 500;
+  }
 .about-copy p { color: var(--muted); font-size: 1.08rem; }
 
 .contact { color: #fff7eb; text-align: center; background: var(--night); }
